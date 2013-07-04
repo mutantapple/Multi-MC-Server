@@ -1,7 +1,10 @@
 <?php
 
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+start();
+
+function start() {
+
+    $str = shell_exec("start.sh");
+}
+
 ?>
